@@ -3,6 +3,11 @@ package array.leetcode11;
 // https://leetcode-cn.com/problems/container-with-most-water/
 
 public class Solution {
+    /**
+     * 省最多水的容器
+     * @param height 数组
+     * @return 返回最大容积
+     */
     public int maxArea(int[] height) {
         int maxAreas = 0;
         int left = 0;
