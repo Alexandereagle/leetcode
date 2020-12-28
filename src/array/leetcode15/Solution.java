@@ -27,7 +27,7 @@ public class Solution {
                 }else if(nums[left] + nums[right] < temp) {
                     left += 1;
                 }else {
-                    List<Integer> mid = new ArrayList<Integer>();
+                    List<Integer> mid = new ArrayList<>();
                     mid.add(nums[i]);
                     mid.add(nums[left]);
                     mid.add(nums[right]);
